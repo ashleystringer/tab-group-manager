@@ -13,6 +13,8 @@
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^5.0.5",
-    "vite": "^5.3.4"
+    "vite": "^5.3.4",
+    "vite-plugin-html": "^3.2.2",
+    "vite-plugin-multi-pages": "^0.0.14"
   }
 }

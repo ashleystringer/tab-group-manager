@@ -1,0 +1,131 @@
+:root {
+    --background-color: rgb(156, 156, 156);
+  }
+  
+  body {
+      width: 20rem;
+      background-color: #ffffff;
+    }
+  
+    .collapsible {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 5px;
+    }
+  
+    .collapsible div {
+  
+    }
+  
+    .toggleBtn {
+      cursor: pointer;
+    }
+  
+    .activeTabForm {
+      border: 1px solid var(--background-color);
+      border-radius: 5px;
+      background-color: var(--background-color);
+      display: none;
+    }
+  
+    .activeTabForm.toggleOn {
+      display: flex;
+      flex-direction: column;
+    }
+  
+    .activeTabInpt {
+      margin: 5px;
+    }
+  
+    .newTabGroupSelect {
+      margin: 5px;
+    }
+  
+    .activeTabButton {
+      margin: 5px;
+    }
+  
+    .tabGroupForm {
+      border: 1px solid var(--background-color);
+      border-radius: 5px;
+      background-color: var(--background-color);
+      display: none;
+    }
+  
+    .tabGroupForm.toggleOn {
+      display: flex;
+      flex-direction: column;
+    }
+  
+    .tabGroupNameInpt {
+      margin: 5px;
+    }
+  
+    .tabGroupColorSelect {
+      margin: 5px;
+    }
+  
+    .addTabGroupButton {
+      margin: 5px;
+    }
+  
+    /* TEMPLATE STYLING */
+  
+    ul {
+      list-style-type: none;
+      padding-inline-start: 0;
+      margin: 1rem 0;
+    }
+    
+    li {
+      padding: 0.25rem;
+    }
+    li:nth-child(odd) {
+      background: #80808030;
+    }
+    li:nth-child(even) {
+      background: #ffffff;
+    }
+    
+    h3,
+    p {
+      margin: 0;
+    }
+    .tabGroup {
+  
+    }
+    .tabGroupHeader {
+      display: flex;
+      justify-content: space-between;
+    }
+    .tabGroupTitle {
+  
+    }
+    .tabList {
+      
+    }
+    .deleteTabGroupBtn {
+      cursor: pointer;
+    }
+    .tabSection {
+  
+    }
+    .tabListTemplate {
+  
+    }
+    .tabList {
+  
+    }
+    .tabTitleHeader {
+      display: flex;
+      justify-content: space-between;
+    }
+    .deleteTabBtn {
+      cursor: pointer;
+    }
+    .tabTitle {
+  
+    }
+    .tabUrlLink {
+  
+    }
